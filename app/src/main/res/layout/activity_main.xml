@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p2"
+    tools:context="top.omooo.admin.youdaotrans.MainActivity">
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/editText1"
+        android:textSize="23sp"
+        android:textColorHint="#FFFF00"
+        android:textColor="#FFFF00"
+        android:hint="支持汉译英、英译汉、小语种、短语或句子"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/button1"
+        android:text="翻译"
+        android:textSize="23sp"
+        android:textColor="#FFFF00"
+        android:background="#66CCFF"
+        android:onClick="translateString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:textColor="#FFFF00"
+        android:text="翻译结果"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
