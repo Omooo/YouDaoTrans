@@ -3,4 +3,4 @@
 
 实现也很简单，简单来说就是拼接URL然后请求网络返回接收数据后解析到UI中。
 
-[https://github.com/Omooo/YouDaoTrans](https://github.com/Omooo/YouDaoTrans)
+Demo APK 下载 : [http://www.wooyun.site/YouDao_Omooo.apk](http://www.wooyun.site/YouDao_Omooo.apk)
